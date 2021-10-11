@@ -1,0 +1,51 @@
+{
+  "name": "@akiltech/eslint-config-base",
+  "version": "1.0.0",
+  "description": "Eslint and prettier base configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akiltech/eslint-config-base.git"
+  },
+  "author": "Elysee Bleu (https://github.com/elysee15)",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "prettier",
+    "config",
+    "styleguide",
+    "akiltech"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akiltech/eslint-config-base,/issues"
+  },
+  "homepage": "https://github.com/akiltech/eslint-config-base#readme",
+  "engines": {
+    "node": ">= 6"
+  },
+  "devDependencies": {
+    "confusing-browser-globals": "^1.0.10",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint": "8.0.0",
+    "prettier": "2.4.1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "2.4.1"
+  },
+  "contributors": [
+    "elysee15"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
