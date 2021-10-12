@@ -44,5 +44,8 @@
   },
   "contributors": [
     "elysee15"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
